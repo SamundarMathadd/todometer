@@ -37,6 +37,12 @@ $ npm run pre-electron-pack
 $ npm run electron-pack
 ```
 
+To test :
+Please make sure chromedriver is present in the mentioned path in wdio.config.js
+```bash
+$ npx wdio run wdio.conf.js
+```
+
 ## Contributing
 
 So you want to contribute? Yay! Great! Fun!
