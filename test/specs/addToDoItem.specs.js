@@ -1,8 +1,8 @@
 import { browser } from '@wdio/globals'
 import { assert } from 'chai';
-describe('To-Do Meter App', () => {
+describe('To-Do meter: add to-do item', () => {
     it('should allow adding a new to-do item', async () => {
-      // Assuming there's an input field with class '.new-todo' and a button to add it.
+
       const inputField = await $('._form_1o9rn_1 input');
       const addButton = await $('._form_1o9rn_1 button');
       

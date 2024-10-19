@@ -1,8 +1,8 @@
 import { browser } from '@wdio/globals'
 import { assert } from 'chai';
-describe('To-Do Meter App', () => {
+describe('To-Do Meter App: : mark to-do pause', () => {
     it('should allow marking a to-do item as paused', async () => {
-      // Assuming there's a checkbox to mark the to-do as done
+      
       const inputField = await $('._form_1o9rn_1 input');
       const addButton = await $('._form_1o9rn_1 button');
       
